@@ -1,0 +1,64 @@
+.main
+  background: url(../img/main-bg.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  &__gradient
+    background: $gradient
+
+.topbar
+  height: 80px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-family: "Roboto"
+  font-weight: 900
+  &__logo
+    display: flex
+    align-items: center
+
+  &__logo-img
+
+  &__logo-name
+    margin-left: 10px
+
+  &__navigation
+
+  &__link
+    margin-left: 25px
+    text-transform: uppercase
+    color: $color-light
+    &--active
+      color: $color-main
+
+
+.home
+  text-align: center
+  color: $color-light
+  &__title
+    margin-top: 145px
+    font-size: 32px
+    font-family: "Playfair Display"
+    font-weight: 900
+    line-height: 1.2
+    position: relative
+    &::after
+      @include underscore
+      background-color: #00e0d0
+      top: 54px
+
+  &__wrapper
+    margin: 0 auto
+    width: 780px
+
+  &__slide
+
+  &__text
+    font-size: 14px
+    font-family: Roboto
+    font-weight: light
+    line-height: 1.7
+
+
+  &__btn
+
+

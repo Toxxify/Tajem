@@ -1,0 +1,52 @@
+
+$color-light: #ffffff
+$color-dark: #413d4b
+$color-main: #00e0d0
+
+$gradient-rimary: rgb(9,5,47)
+$gradient-seconndary: rgb(49,29,94)
+$gradient: linear-gradient( 0deg, rgba($gradient-rimary, .85) 0%, rgba($gradient-seconndary, .85) 100%)
+
+*
+  box-sizing: border-box
+  
+body
+  color: $color-light
+  font-size: 14px
+
+.container
+  max-width: 940px
+  padding: 0 10px
+  margin: 0 auto
+
+.btn
+  padding: 12px 14px
+  font-size: 16px
+  font-family: Hammersmith One
+  color: $color-main
+  line-height: 16px
+  text-transform: uppercase
+  border: 1px solid $color-main
+  border-radius: 2px
+  background: transparent
+
+.section-title
+  font-size: 22px
+  font-family: Playfair Display
+  font-weight: bold
+  margin: 0
+
+.block-title
+  //
+.article-title
+  //
+
+@mixin underscore
+  content: ""
+  position: absolute
+  height: 1px
+  width: 50px
+  transform: translateX(-50%)
+  left: 50%
+  
+
